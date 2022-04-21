@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <title>Book Store</title>
+        <link rel="stylesheet" href="./BookStore_files/styles.css" />
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root">
+            <div>
+                <div class="navbar_verticalContainer__Pv6Jt">
+                    <div class="navbar_container__P34cW">
+                        <img src="./BookStore_files/2RrwTeT.png" alt="book store icon" class="navbar_logo__qK-aO" />
+                        <div class="navbar_searchBar__k+Xv-">
+                            <input type="text" placeholder="Search products, categories..." />
+                            <button class="navbar_searchBarIcon__KKLii">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bx"
+                                    width="1em"
+                                    height="1em"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <g transform="rotate(90 12 12)">
+                                        <path
+                                            fill="currentColor"
+                                            d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396l1.414-1.414l-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8s3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6s-6-2.691-6-6s2.691-6 6-6z"
+                                        ></path>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="navbar_btnsContainer__e16Zw">
+                            <button icon="bx:user" class="navbar_btn__7agDU">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bx"
+                                    width="1em"
+                                    height="1em"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path fill="currentColor" d="M12 2a5 5 0 1 0 5 5a5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3a3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"></path>
+                                </svg>
+                            </button>
+                            <button icon="bx:cart" class="navbar_btn__7agDU">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bx"
+                                    width="1em"
+                                    height="1em"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"
+                                    ></path>
+                                    <circle cx="10.5" cy="19.5" r="1.5" fill="currentColor"></circle>
+                                    <circle cx="17.5" cy="19.5" r="1.5" fill="currentColor"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="navbar_categoriesBar__qs3DQ">
+                        <button class="navbar_categoriesBarBtn__ehbJw"><h5>Fiction</h5></button><button class="navbar_categoriesBarBtn__ehbJw"><h5>Psychology</h5></button>
+                        <button class="navbar_categoriesBarBtn__ehbJw"><h5>Horror</h5></button><button class="navbar_categoriesBarBtn__ehbJw"><h5>Science Fiction</h5></button>
+                        <button class="navbar_categoriesBarBtn__ehbJw"><h5>Humor</h5></button><button class="navbar_categoriesBarBtn__ehbJw"><h5>Apocalyptic</h5></button>
+                    </div>
+                </div>
+                <div class="navbar_breadcrumb__MMNmp">
+                    <a class="navbar_breadItem__zWBlt" href="http://localhost:3000/">Homepage / </a><a class="navbar_breadItem__zWBlt" href="http://localhost:3000/products/">Products / </a>
+                    <a class="navbar_breadItem__zWBlt navbar_breadItemActive__haCW8" href="http://localhost:3000/products/1236557/">The Way of Kings</a>
+                </div>
+                <div class="productDetail_detailContainer__-aYE1">
+                    <div class="productDetail_detailText__lEOe4">
+                        <div class="productDetail_title__+c9UO">
+                            <h1>The Way of Kings</h1>
+                            <h3>(The Stormlight Archive #1)</h3>
+                            <h5>by <a class="productDetail_author__sVyfB" href="https://www.goodreads.com/author/show/38550.Brandon_Sanderson" target="_blank" rel="noreferrer"> Brandon Sanderson </a></h5>
+                            <div class="productDetail_detailRating__lsQG6">
+                                <div class="products_starRating__9OaLO">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true"
+                                        role="img"
+                                        class="iconify iconify--bxs"
+                                        width="18"
+                                        height="18"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24"
+                                        style="color: rgb(21, 21, 21);"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                        ></path>
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true"
+                                        role="img"
+                                        class="iconify iconify--bxs"
+                                        width="18"
+                                        height="18"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24"
+                                        style="color: rgb(21, 21, 21);"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                        ></path>
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true"
+                                        role="img"
+                                        class="iconify iconify--bxs"
+                                        width="18"
+                                        height="18"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24"
+                                        style="color: rgb(21, 21, 21);"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                        ></path>
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true"
+                                        role="img"
+                                        class="iconify iconify--bxs"
+                                        width="18"
+                                        height="18"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24"
+                                        style="color: rgb(21, 21, 21);"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                        ></path>
+                                    </svg>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true"
+                                        role="img"
+                                        class="iconify iconify--bxs"
+                                        width="18"
+                                        height="18"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24"
+                                        style="color: rgb(21, 21, 21);"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M5.025 20.775A.998.998 0 0 0 6 22a1 1 0 0 0 .555-.168L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107l-1.491 6.452zM12 5.429l2.042 4.521l.588.047h.001l3.972.315l-3.271 2.944l-.001.002l-.463.416l.171.597v.003l1.253 4.385L12 15.798V5.429z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <span>(25522 customer reviews)</span>
+                            </div>
+                        </div>
+                        <p>
+                            From #1 New York Times bestselling author Brandon Sanderson, The Way of Kings, book one of The Stormlight Archive begins an incredible new saga of epic proportion. Roshar is a world of stone and storms. Uncanny
+                            tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless
+                            ground. Cities are built only where the topography offers shelter. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain:
+                            mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them. One such war rages on a ruined
+                            landscape called the Shattered Plains. There, Kaladin, who traded his medical apprenticeship for a spear to protect his little brother, has been reduced to slavery. In a war that makes no sense, where ten armies
+                            fight separately against a single foe, he struggles to save his men and to fathom the leaders who consider them expendable. Brightlord Dalinar Kholin commands one of those other armies. Like his brother, the late
+                            king, he is fascinated by an ancient text called The Way of Kings. Troubled by over-powering visions of ancient times and the Knights Radiant, he has begun to doubt his own sanity. Across the ocean, an untried
+                            young woman named Shallan seeks to train under an eminent scholar and notorious heretic, Dalinar's niece, Jasnah. Though she genuinely loves learning, Shallan's motives are less than pure. As she plans a daring
+                            theft, her research for Jasnah hints at secrets of the Knights Radiant and the true cause of the war. The result of over ten years of planning, writing, and world-building, The Way of Kings is but the opening
+                            movement of the Stormlight Archive, a bold masterpiece in the making. Speak again the ancient oaths: Life before death. Strength before weakness. Journey before Destination. and return to men the Shards they once
+                            bore. The Knights Radiant must stand again.
+                        </p>
+                        <div class="productDetail_prodInfo__cZg6n">
+                            <div class="productDetail_infoCont__tMeRU">
+                                <div class="productDetail_infoLabel__hKbD+">
+                                    <p>Publisher:</p>
+                                    <p>Date published:</p>
+                                    <p>Review count:</p>
+                                    <p>Page count:</p>
+                                </div>
+                                <div class="productDetail_infoValue__hcBHG">
+                                    <p>Tor Books</p>
+                                    <p>31/08/2010</p>
+                                    <p>25522</p>
+                                    <p>1007</p>
+                                </div>
+                            </div>
+                            <div class="productDetail_price__eJLm5">
+                                <h2>36.99 USD</h2>
+                                <button variant="buy" class="common_btn__K0pQo common_btnBuy__Z2YTP">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true"
+                                        role="img"
+                                        class="iconify iconify--bx"
+                                        width="1em"
+                                        height="1em"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        viewBox="0 0 24 24"
+                                        style="vertical-align: -0.125em;"
+                                    >
+                                        <path fill="currentColor" d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                                    </svg>
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./BookStore_files/7235533.jpg" alt="The Way of Kings" />
+                </div>
+
+                <div class="productDetail_detailRec__4yXn5">
+                    <h4>Related products</h4>
+                    <a class="productDetail_detailMoreBtn__4sRRB" href="http://localhost:3000/products">
+                        <button class="common_btn__K0pQo">
+                            More products
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true"
+                                role="img"
+                                class="iconify iconify--bxs"
+                                width="1em"
+                                height="1em"
+                                preserveAspectRatio="xMidYMid meet"
+                                viewBox="0 0 24 24"
+                                style="vertical-align: -0.125em;"
+                            >
+                                <path fill="currentColor" d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path>
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+                <div class="common_responsiveRow__qGkJw">
+                    <a class="products_prodLink__4yJ9r" href="http://localhost:3000/products/1236557">
+                        <div class="products_productCard__5wc2U">
+                            <div class="products_prodCardImgContainer__8hdmo"><img class="products_productCardImage__WS40D" src="./BookStore_files/7235533.jpg" alt="Book cover" /></div>
+                            <h5 style="font-weight: 500;">The Way of Kings</h5>
+                            <h6>Brandon Sanderson</h6>
+                            <div class="products_starRating__9OaLO">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M5.025 20.775A.998.998 0 0 0 6 22a1 1 0 0 0 .555-.168L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107l-1.491 6.452zM12 5.429l2.042 4.521l.588.047h.001l3.972.315l-3.271 2.944l-.001.002l-.463.416l.171.597v.003l1.253 4.385L12 15.798V5.429z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="products_productCardTail__-TRET">
+                                <h4 style="font-weight: 600;">36.99 USD</h4>
+                                <button variant="buy" class="common_btn__K0pQo common_btnBuy__Z2YTP">Buy now</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="products_prodLink__4yJ9r" href="http://localhost:3000/products/1236557">
+                        <div class="products_productCard__5wc2U">
+                            <div class="products_prodCardImgContainer__8hdmo"><img class="products_productCardImage__WS40D" src="./BookStore_files/7235533.jpg" alt="Book cover" /></div>
+                            <h5 style="font-weight: 500;">The Way of Kings</h5>
+                            <h6>Brandon Sanderson</h6>
+                            <div class="products_starRating__9OaLO">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M5.025 20.775A.998.998 0 0 0 6 22a1 1 0 0 0 .555-.168L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107l-1.491 6.452zM12 5.429l2.042 4.521l.588.047h.001l3.972.315l-3.271 2.944l-.001.002l-.463.416l.171.597v.003l1.253 4.385L12 15.798V5.429z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="products_productCardTail__-TRET">
+                                <h4 style="font-weight: 600;">36.99 USD</h4>
+                                <button variant="buy" class="common_btn__K0pQo common_btnBuy__Z2YTP">Buy now</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="products_prodLink__4yJ9r" href="http://localhost:3000/products/1236557">
+                        <div class="products_productCard__5wc2U">
+                            <div class="products_prodCardImgContainer__8hdmo"><img class="products_productCardImage__WS40D" src="./BookStore_files/7235533.jpg" alt="Book cover" /></div>
+                            <h5 style="font-weight: 500;">The Way of Kings</h5>
+                            <h6>Brandon Sanderson</h6>
+                            <div class="products_starRating__9OaLO">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M5.025 20.775A.998.998 0 0 0 6 22a1 1 0 0 0 .555-.168L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107l-1.491 6.452zM12 5.429l2.042 4.521l.588.047h.001l3.972.315l-3.271 2.944l-.001.002l-.463.416l.171.597v.003l1.253 4.385L12 15.798V5.429z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="products_productCardTail__-TRET">
+                                <h4 style="font-weight: 600;">36.99 USD</h4>
+                                <button variant="buy" class="common_btn__K0pQo common_btnBuy__Z2YTP">Buy now</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="products_prodLink__4yJ9r" href="http://localhost:3000/products/1236557">
+                        <div class="products_productCard__5wc2U">
+                            <div class="products_prodCardImgContainer__8hdmo"><img class="products_productCardImage__WS40D" src="./BookStore_files/7235533.jpg" alt="Book cover" /></div>
+                            <h5 style="font-weight: 500;">The Way of Kings</h5>
+                            <h6>Brandon Sanderson</h6>
+                            <div class="products_starRating__9OaLO">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107l-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082c.297-.268.406-.686.278-1.065z"
+                                    ></path>
+                                </svg>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    role="img"
+                                    class="iconify iconify--bxs"
+                                    width="18"
+                                    height="18"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    style="color: rgb(21, 21, 21);"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M5.025 20.775A.998.998 0 0 0 6 22a1 1 0 0 0 .555-.168L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4l4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454l-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107l-1.491 6.452zM12 5.429l2.042 4.521l.588.047h.001l3.972.315l-3.271 2.944l-.001.002l-.463.416l.171.597v.003l1.253 4.385L12 15.798V5.429z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="products_productCardTail__-TRET">
+                                <h4 style="font-weight: 600;">36.99 USD</h4>
+                                <button variant="buy" class="common_btn__K0pQo common_btnBuy__Z2YTP">Buy now</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
