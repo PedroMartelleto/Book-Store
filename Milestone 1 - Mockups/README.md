@@ -49,7 +49,7 @@ Antonio Luiz Carvalho Turano Filho -
 
 ## Project Description
 
-The goal of the project is to fulfill the [Requirements](requirements) by developing an easy-to-use online store that uses the [Goodreads book database](https://www.kaggle.com/datasets/austinreese/goodreads-books) to present a catalog of books to the user. Several pages are presented in the website that implement the functionality described in the [Requirements](requirements). A **Navigation Diagram** illustrating the interaction between those pages can be found [here](https://www.figma.com/file/xTA8quNUIcFnJdaKB3LAgx/Navigation-Diagram?node-id=0%3A1).
+The goal of the project is to fulfill the [Requirements](###requirements) by developing an easy-to-use online store that uses the [Goodreads book database](https://www.kaggle.com/datasets/austinreese/goodreads-books) to present a catalog of books to the user. Several pages are presented in the website that implement the functionality described in the [Requirements](###requirements). A **Navigation Diagram** illustrating the interaction between those pages can be found [here](https://www.figma.com/file/xTA8quNUIcFnJdaKB3LAgx/Navigation-Diagram?node-id=0%3A1).
 
 To prepare for the development of the frontend, we developed a **[Mockup](https://www.figma.com/file/ZpRNOgvVlgQQf5CxK1sVEg/Book-Store---Mockup?node-id=0%3A1)** that details the widgets present in each page and the Graphical User Interface presented to the end user. The mockup has all the pages that will be in the final app, with variants depending on the type of user logged in (Admin or Customer).
 
