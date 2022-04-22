@@ -1,14 +1,12 @@
 # Book Store - Milestone 1 (Mockups)
 
-## Project Report
-
 Pedro Martelleto Bressane Rezende - 11795641
 
 João Marcos Cardoso da Silva - 
 
 Antonio Luiz Carvalho Turano Filho - 
 
-### Requirements
+## Requirements
  - General Requirements
     - The system must present to all users the list of books
     - When a book is selected by the user, a list of recommended books must be presented. The recommendations are based on a simple pre-calculated recommendation algorithm (this is the functionality specific to our application).
