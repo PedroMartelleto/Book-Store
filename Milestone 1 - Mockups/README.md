@@ -4,8 +4,6 @@ Pedro Martelleto Bressane Rezende - 11795641
 
 João Marcos Cardoso da Silva - 
 
-Antonio Luiz Carvalho Turano Filho - 
-
 ## Requirements
  - General Requirements
     - The system must present to all users the list of books
@@ -50,6 +48,8 @@ Antonio Luiz Carvalho Turano Filho -
 The goal of the project is to fulfill the [Requirements](#requirements) by developing an easy-to-use online store that uses the [Goodreads book database](https://www.kaggle.com/datasets/austinreese/goodreads-books) to present a catalog of books to the user. Several pages are presented in the website that implement the functionality described in the [Requirements](#requirements). A **Navigation Diagram** illustrating the interaction between those pages can be found [here](https://www.figma.com/file/xTA8quNUIcFnJdaKB3LAgx/Navigation-Diagram?node-id=0%3A1).
 
 To prepare for the development of the frontend, we developed a **[Mockup](https://www.figma.com/file/ZpRNOgvVlgQQf5CxK1sVEg/Book-Store---Mockup?node-id=0%3A1)** that details the widgets present in each page and the Graphical User Interface presented to the end user. The mockup has all the pages that will be in the final app, with variants depending on the type of user logged in (Admin or Customer).
+
+The basic funcionality includes two types of user: a Customer and a Administrator. The Customer is able to navigate the website looking for books to buy, add them to a Cart and buy those items using a Credit or Debit Card. The Administrator does not buy items. Instead, this type of account can edit the contents of existing items, remove items or create new items and add them to the store.
 
 ## HTML/CSS of the main pages
 
