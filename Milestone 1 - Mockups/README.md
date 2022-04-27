@@ -9,7 +9,7 @@ Antonio Luiz Carvalho Turano Filho
 ## Requirements
  - General Requirements
     - The system must present to all users the list of books
-    - When a book is selected by the user, a list of recommended books must be presented. The recommendations are based on a simple pre-calculated recommendation algorithm (this is the functionality specific to our application).
+    - **When a book is selected by the user, a list of recommended books must be presented. The recommendations are based on a simple pre-calculated recommendation algorithm (this is the functionality specific to our application).**
     - The system must have two types of users, Clients and Administrators 
     - All types of user must be able to read and update the information associated with their account
     - All types of user must be able to delete their own account
