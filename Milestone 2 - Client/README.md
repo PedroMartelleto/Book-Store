@@ -1,4 +1,4 @@
-# Book Store - Milestone 1 (Mockups)
+# Book Store - Milestone 2 (Client)
 
 Pedro Martelleto Bressane Rezende - 11795641
 
