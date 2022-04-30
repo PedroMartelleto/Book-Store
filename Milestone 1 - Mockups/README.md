@@ -4,7 +4,7 @@ Pedro Martelleto Bressane Rezende - 11795641
 
 João Marcos Cardoso da Silva - 11795314
 
-Antonio Luiz Carvalho Turano Filho
+Antonio Luiz Carvalho Turano Filho - 10723919
 
 ## Requirements
  - General Requirements
