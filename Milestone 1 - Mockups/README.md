@@ -35,12 +35,12 @@ Antonio Luiz Carvalho Turano Filho - 10723919
     - The system must also store all information necessary for the recommendation system.
   - Requirements specific to Clients
     - Anyone must be able to create a Client account
-    - The system must store their name, id, phone, email and address.
+    - The system must store their first name, last name, email, password, address, zip, state, ZIP code and payment information
     - The clients must be able to manage their payment methods (credit card or debit card)
     - The clients must be able to add, view and remove books in their cart
     - The clients must be able to buy books from the store
  - Requirements specific to Administrators
-    - The system must store their name, id, phone and email
+    - The system must store their first name, last name, email, password, address, city, state and ZIP code
     - The system must contain a default administrator account, which starts with the username "admin" and the password "admin"
     - Only existing Administrators are allowed to create new Administrator accounts
     - Administrators must be able to add, update read and delete information relative to books in the database.
