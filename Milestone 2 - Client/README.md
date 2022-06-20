@@ -54,13 +54,6 @@ To prepare for the development of the frontend, we developed a **[Mockup](https:
 
 The basic funcionality includes two types of user: a Customer and a Administrator. The Customer is able to navigate the website looking for books to buy, add them to a Cart and buy those items using a Credit or Debit Card. The Administrator does not buy items. Instead, this type of account can edit the contents of existing items, remove items or create new items and add them to the store.
 
-## About 'use strict'
-
-Use strict is unnecessary inside ES6 modules, so it is omitted in the react application.
-
-## HTML/CSS of the main pages
-
-* See [Homepage.html](Homepage.html), [Products.html](Products.html) and [ProductDetail.html](ProductDetail.html). To test locally, also download the required resources contained in [BookStore_files/](BookStore_files).
 
 ## Responsiveness
 
@@ -68,16 +61,26 @@ Use strict is unnecessary inside ES6 modules, so it is omitted in the react appl
 
 ## Comments about the code
 
-None currently.
+### Overall Organization
 
+The code for the project is organized in the following way:
+
+ - The code for the interactive and visual elements of the website are in the `client` folder.
+ - The code for the server-side logic and the API endpoints is in the `server` folder. 
+
+### About 'use strict'
+
+Use strict is unnecessary inside ES6 modules, so it is omitted in the react application.
 ## Test Plan and Results
 
-Does not apply.
+For the main webpage, we manually performed tests by interacting with the website in various different settings, such as navigating to different pages, adding items to the cart, buying items, registering a new user, logging in. When logged in as administrator, we also tested the ability to add, update and delete items and to remove users or make them administrators.
 
+For the server-side application, use used the [Jest](https://jestjs.io/) testing framework to perform automatic tests that check that all API endpoints have the correct effects and, when necessary, only respond to requests that are correctly authenticated.
+
+In the latest version of this project, all tests in the client-side were executed with success. The tests in the server-side are not yet complete for the Milestone 2.
 ## Build Procedures
 
-Does not apply.
-
+Instructions for building and executing the client and server-side applications are provided in the README.md files inside their respective folders. Note that it is not necessary to run the server-side yourself if you want to test the client-side, since there is an instance of the server running at the URL `[url here]`.
 ## Problems and Comments
 
 None.
