@@ -11,3 +11,5 @@ To run the application, execute:
 ```
 npm start
 ```
+
+Note that the server must also be running on the same machine for the application to work.

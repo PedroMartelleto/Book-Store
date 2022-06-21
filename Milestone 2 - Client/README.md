@@ -80,7 +80,7 @@ For the server-side application, use used the [Jest](https://jestjs.io/) testing
 In the latest version of this project, all tests in the client-side were executed with success. The tests in the server-side are not yet complete for the Milestone 2.
 ## Build Procedures
 
-Instructions for building and executing the client and server-side applications are provided in the README.md files inside their respective folders. Note that it is not necessary to run the server-side yourself if you want to test the client-side, since there is an instance of the server running at the URL `[url here]`.
+Instructions for building and executing the client and server-side applications are provided in the README.md files inside their respective folders. Note that to fully test the client-side application, it is required that a server be running on the same machine.
 ## Problems and Comments
 
 None.

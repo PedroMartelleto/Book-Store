@@ -1,0 +1,152 @@
+@use "../common/colors" as c;
+@use "../common/sizes" as f;
+
+.remove {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.remove:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.prodTopCont {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prodTitle {
+    max-width: 240px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.cartPage {
+    padding: 32px;
+}
+
+.starRatingCont {
+    margin-top: 5px;
+}
+
+.productCardTail {
+    margin-top: 10px;
+}
+
+.unitSelect {
+    display: inline-block !important;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.resultRow > h5 {
+    font-weight: 600;
+}
+
+.total > h5 {
+    font-weight: 600;
+}
+
+.resultRow {
+    margin-top: 10px;
+}
+
+.total {
+    margin-top: 22px;
+}
+
+.resultRow > h3 {
+    color: c.$C2A;
+    font-weight: 600;
+    position: relative;
+    top: 8px;
+}
+
+.delivery {
+    color: c.$C2A;
+}
+
+.cartContainer {
+    padding: 34px 28px;
+    border: 1px solid c.$C1E;
+    box-sizing: border-box;
+    width: fit-content;
+    border-radius: 12px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.cartContainer > h3 {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 880px) {
+    .breadcrumb {
+        justify-content: center;
+    }
+}
+
+.prodImg {
+    max-width: 128px;
+    width: auto;
+    height: 190px;
+    object-fit: contain;
+    border-radius: 20px 3px 20px 3px;
+}
+
+.resultRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completeOrderBtn {
+    margin: 56px 32px;
+    padding: 16px 20px;
+}
+
+.stretch {
+    flex-grow: 1;
+}
+
+.prodDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-grow: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 10px;
+}
+
+.freeShipping {
+    text-decoration: line-through;
+    margin-right: 4px;
+}
+
+@media screen and (max-width: 880px) {
+    .cartContainer {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cartContainer {
+        justify-content: center;
+        border: none;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

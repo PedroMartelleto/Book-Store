@@ -1,0 +1,106 @@
+@use "./colors" as c;
+@use "./sizes" as f;
+
+/* Common styles */
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.checkboxLabel {
+    margin-left: 12px;
+}
+
+.btnDisabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.responsiveRow {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 6px;
+    padding-bottom: 32px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 880px) {
+    .responsiveRow {
+        justify-content: center;
+    }
+}
+
+.btn {
+    border-radius: 12px;
+    font-weight: 700;
+    display: block;
+    padding: 6px 48px;
+    line-height: 22px;
+    min-width: 170px;
+    min-height: 56px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnOutlined {
+    border: 2px solid c.$C2A;
+    color: c.$C1A;
+}
+
+.btnCompact {
+    margin-left: 8px;
+    padding: 20px !important;
+    min-width: 0px !important;
+}
+
+.btnCompact:hover {
+    background-color: c.$C1E;
+}
+
+.btnFilled {
+    background-color: c.$C2A;
+    color: c.$C1J;
+}
+
+.btnSecondary {
+    color: c.$C1A;
+    background-color: c.$C1F;
+}
+
+.btnBuy {
+    color: c.$C1J;
+    background-color: c.$C2A;
+    padding: 6px 12px;
+    min-width: 96px;
+    min-height: 38px;
+    border: 2px solid c.$C2B;
+}
+
+.btnNoFill:hover {
+    background-color: c.$C1F;
+}
+
+.categoriesText {
+    padding: 12px 12px 12px f.$padding;
+}
+
+.categoriesTextTitle {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.categoriesTextLink {
+    display: block;
+    color: c.$C2A;
+    font-size: f.$body;
+    font-weight: 300;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.categoryBtn {
+    margin-top: 32px;
+}
