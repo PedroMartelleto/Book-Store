@@ -65,7 +65,7 @@ The basic funcionality includes two types of user: a Customer and a Administrato
 
 The code for the project is organized in the following way:
 
- - The code for the interactive and visual elements of the website are in the `client` folder.
+ - The code for the interactive and visual elements of the website is in the `client` folder.
  - The code for the server-side logic and the API endpoints is in the `server` folder. 
 
 ### About 'use strict'
