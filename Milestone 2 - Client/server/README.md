@@ -28,6 +28,11 @@ To start the database, execute:
 sudo systemctl start mongod
 ```
 
+To create an admin account, run (while the local server is running):
+```
+python3 createAdmin.py
+```
+
 To populate the database with the data from the csv file, execute:
 ```
 python3 feedDatabase.py
