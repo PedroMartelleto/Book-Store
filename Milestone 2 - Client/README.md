@@ -81,6 +81,10 @@ In the latest version of this project, all tests in the client-side were execute
 ## Build Procedures
 
 Instructions for building and executing the client and server-side applications are provided in the README.md files inside their respective folders. Note that to fully test the client-side application, it is required that a server be running on the same machine.
+
+For more details on running the client, refer to the [client folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%202%20-%20Client/client).
+For more information about running server, refer to the [server folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%202%20-%20Client/server).
+
 ## Problems and Comments
 
 None.
