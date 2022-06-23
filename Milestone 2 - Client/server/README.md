@@ -28,6 +28,8 @@ To start the database, execute:
 sudo systemctl start mongod
 ```
 
+## Creating the admin account and adding books to the local database
+
 To create an admin account, run (while the local server is running):
 ```
 python3 createAdmin.py
