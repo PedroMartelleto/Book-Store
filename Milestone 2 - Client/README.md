@@ -89,6 +89,11 @@ For more information about running server, refer to the [server folder README](h
 
 To test the admin account, use the following credentials:
 
+```
+admin@email.com
+1234
+```
+
 ## Problems and Comments
 
 None.
