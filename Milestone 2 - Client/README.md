@@ -85,6 +85,10 @@ Instructions for building and executing the client and server-side applications 
 For more details on running the client, refer to the [client folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%202%20-%20Client/client).
 For more information about running server, refer to the [server folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%202%20-%20Client/server).
 
+## Admin account
+
+To test the admin account, use the following credentials:
+
 ## Problems and Comments
 
 None.
