@@ -13,6 +13,15 @@ To run the server locally, execute:
 npm run start
 ```
 
+## Admin account
+
+To test the admin account, use the following credentials:
+
+```
+admin@email.com
+1234
+```
+
 ## Running the Database
 If you want to run the database locally (this is NOT required to test the server, since there is a remote database available), run the following commands to install all dependencies:
 
@@ -28,12 +37,7 @@ To start the database, execute:
 sudo systemctl start mongod
 ```
 
-## Creating the admin account and adding books to the local database
-
-To create an admin account, run (while the local server is running):
-```
-python3 createAdmin.py
-```
+## Adding books to the local database
 
 To populate the database with the data from the csv file, execute:
 ```
