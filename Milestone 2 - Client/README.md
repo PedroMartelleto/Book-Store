@@ -65,7 +65,7 @@ The basic funcionality includes two types of user: a Customer and a Administrato
 
 The code for the project is organized in the following way:
 
- - The code for the interactive and visual elements of the website are in the `client` folder.
+ - The code for the interactive and visual elements of the website is in the `client` folder.
  - The code for the server-side logic and the API endpoints is in the `server` folder. 
 
 ### About 'use strict'
@@ -81,6 +81,19 @@ In the latest version of this project, all tests in the client-side were execute
 ## Build Procedures
 
 Instructions for building and executing the client and server-side applications are provided in the README.md files inside their respective folders. Note that to fully test the client-side application, it is required that a server be running on the same machine.
+
+For more details on running the client, refer to the [client folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%202%20-%20Client/client).
+For more information about running server, refer to the [server folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%202%20-%20Client/server).
+
+## Admin account
+
+To test the admin account, use the following credentials:
+
+```
+admin@email.com
+1234
+```
+
 ## Problems and Comments
 
 None.
