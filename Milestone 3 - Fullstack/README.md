@@ -82,8 +82,8 @@ In the latest version of this project, all tests were executed with success.
 
 Instructions for building and executing the client and server-side applications are provided in the README.md files inside their respective folders. Note that to fully test the client-side application, it is required that a server be running on the same machine.
 
-For more details on running the client, refer to the [client folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%203/client).
-For more information about running server, refer to the [server folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%203/server).
+For more details on running the client, refer to the [client folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%203%20-%20Fullstack/client).
+For more information about running server, refer to the [server folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%203%20-%20Fullstack/server).
 
 ## Admin account
 
