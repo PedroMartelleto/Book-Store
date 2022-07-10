@@ -65,24 +65,34 @@ The basic funcionality includes two types of user: a Customer and a Administrato
 
 The code for the project is organized in the following way:
 
- - The code for the interactive and visual elements of the website are in the `client` folder.
+ - The code for the interactive and visual elements of the website is in the `client` folder.
  - The code for the server-side logic and the API endpoints is in the `server` folder. 
 
 ### About 'use strict'
 
 Use strict is unnecessary inside ES6 modules, so it is omitted in the react application.
-
 ## Test Plan and Results
 
 For the main webpage, we manually performed tests by interacting with the website in various different settings, such as navigating to different pages, adding items to the cart, buying items, registering a new user, logging in. When logged in as administrator, we also tested the ability to add, update and delete items and to remove users or make them administrators.
 
 For the server-side application, use used the [Jest](https://jestjs.io/) testing framework to perform automatic tests that check that all API endpoints have the correct effects and, when necessary, only respond to requests that are correctly authenticated.
 
-In the latest version of this project, all tests in the were executed with success.
-
+In the latest version of this project, all tests were executed with success.
 ## Build Procedures
 
 Instructions for building and executing the client and server-side applications are provided in the README.md files inside their respective folders. Note that to fully test the client-side application, it is required that a server be running on the same machine.
+
+For more details on running the client, refer to the [client folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%203/client).
+For more information about running server, refer to the [server folder README](https://github.com/PedroMartelleto/Book-Store/tree/main/Milestone%203/server).
+
+## Admin account
+
+To test the admin account, use the following credentials:
+
+```
+admin@email.com
+admin
+```
 
 ## Problems and Comments
 
