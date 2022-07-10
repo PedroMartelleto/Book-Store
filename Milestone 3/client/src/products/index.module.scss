@@ -1,0 +1,267 @@
+@use "../common/colors" as c;
+@use "../common/sizes" as f;
+
+.highlightBtn {
+    margin-left: 6px;
+}
+
+.labelsHorizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.thumb:focus {
+    outline: 2px solid c.$C2A !important;
+}
+
+.downArrow {
+    position: relative;
+    top: 3px;
+    margin-left: 4px;
+}
+
+.filterBtn {
+    margin-top: 30px !important;
+}
+
+.rangeLabels {
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: relative;
+    top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-right: 6px;
+    color: c.$C1B;
+}
+
+.rangeLabels > h6 {
+    font-size: 13px;
+}
+
+.range {
+    margin-top: 32px;
+}
+
+.ratingRange {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.pageSelected {
+    pointer-events: none;
+    color: c.$C2C !important;
+    font-weight: 600;
+}
+
+.pagesLabel {
+    margin-right: 6px;
+    color: c.$C1C;
+}
+
+.pageNums {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 42px;
+}
+
+.pageNumber {
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.homePage {
+    padding: 15px 32px 32px 32px;
+}
+
+.leftAligned {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+.titleCont {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+}
+
+.titleCont > h3 {
+    font-weight: 600;
+}
+
+.leftMenu {
+    padding-right: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftMenuLeft {
+    min-width: 180px;
+    padding-right: 40px;
+}
+
+.container {
+    align-items: stretch;
+}
+
+.prodCont {
+    padding-left: f.$padding;
+    padding-right: f.$padding;
+}
+
+.prodCont > h1 {
+    font-weight: 600;
+}
+
+.prodCont > h6 {
+    color: c.$C1C;
+    font-size: f.$scale6;
+    font-weight: 600;
+    padding-top: 48px;
+}
+
+.productCard > h5 {
+    max-width: 180px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.productCard > h6 {
+    max-width: 180px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.categories > .btn {
+    text-align: left;
+}
+
+.categories > h4 {
+    font-weight: 600;
+}
+
+.rating {
+    margin-top: 32px;
+}
+
+.rating > h4 {
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.stars > input {
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+    padding: 5px;
+}
+
+.prodLink {
+    color: c.$C1A;
+    text-decoration: none;
+}
+
+.productCard {
+    padding: f.$cardPadding;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    margin: 4px;
+    width: 180px;
+    height: 440px;
+}
+
+.cardBorder {
+    margin-top: 12px;
+    border: 1px solid c.$C1E;
+    box-sizing: border-box;
+    height: 460px !important;
+    width: 225px !important;
+}
+
+.prodCardImgContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.productCard > h5 {
+    margin-top: 10px;
+}
+
+.productCardImage {
+    max-width: 180px;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 20px 3px 20px 3px;
+}
+
+.starRating {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+    color: #FDBC15;
+}
+
+.productCardTail {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+@media screen and (max-width: 530px) {
+    .productCard {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .leftMenuLeft {
+        display: none;
+    }
+}
